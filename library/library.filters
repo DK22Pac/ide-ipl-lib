@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{6b4ba729-0d07-439e-969b-27c72a004945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ide">
+      <UniqueIdentifier>{8d54a01f-36ba-46bf-b1e6-eed9c151d4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ipl">
+      <UniqueIdentifier>{69c1f2c6-dc4b-4473-83e6-4e0630df3ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\types">
+      <UniqueIdentifier>{b1078646-f0ad-40f5-8def-12b2982f5c26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\types\bbox.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\bsphere.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\entry.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\ideipl_line.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\objs.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\point.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\quat.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ide\gtasa.h">
+      <Filter>source\ide</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\section.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\rgba.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ide\gtavc.h">
+      <Filter>source\ide</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ide\gta3.h">
+      <Filter>source\ide</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{72cc5984-94c8-40db-894f-c7af1f9ce651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ide">
+      <UniqueIdentifier>{5c99e1fb-d7df-42ce-ba76-fed05c185c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ipl">
+      <UniqueIdentifier>{b20f3d25-87cd-40ea-b303-ef206bf24679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\types">
+      <UniqueIdentifier>{38ea19aa-b247-41c6-a5a0-42663d3ab5b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\ide\gta3.h">
+      <Filter>source\ide</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ide\gtasa.h">
+      <Filter>source\ide</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ide\gtavc.h">
+      <Filter>source\ide</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\bbox.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\bsphere.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\entry.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\ideipl_line.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\point.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\quat.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\rgba.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+    <ClInclude Include="source\types\section.h">
+      <Filter>source\types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\types\ideipl_line.cpp">
+      <Filter>source\types</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ide\gtavc.cpp">
+      <Filter>source\ide</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ide\gtasa.cpp">
+      <Filter>source\ide</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ide\gta3.cpp">
+      <Filter>source\ide</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
